@@ -1,0 +1,8 @@
+﻿<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0-preview.2.25164.1" />
+	</ItemGroup>
+</Project>
