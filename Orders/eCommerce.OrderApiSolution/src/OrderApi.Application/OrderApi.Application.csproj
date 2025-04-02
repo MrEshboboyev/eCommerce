@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Http" />
+		<PackageReference Include="Polly.Core" />
+		<PackageReference Include="Polly.Extensions" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\Shared\eCommerce.SharedLibrarySolution\eCommerce.SharedLibrary\eCommerce.SharedLibrary.csproj" />
+		<ProjectReference Include="..\OrderApi.Domain\OrderApi.Domain.csproj" />
+	</ItemGroup>
+</Project>
