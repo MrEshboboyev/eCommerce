@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Shared\eCommerce.SharedLibrarySolution\eCommerce.SharedLibrary\eCommerce.SharedLibrary.csproj" />
+    <ProjectReference Include="..\AuthenticationApi.Domain\AuthenticationApi.Domain.csproj" />
+  </ItemGroup>
+</Project>
